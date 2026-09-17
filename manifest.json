@@ -1,0 +1,35 @@
+{
+  "manifest_version": "1.0",
+  "org": "carllerche",
+  "repo": "iovec",
+  "versions": [
+    {
+      "commit": "d564f78c6346e534b6e45eeb12349b507e088cc7",
+      "parsed_at": "2026-09-17T10:59:52.959723+00:00",
+      "tag": "v0.1.3",
+      "filetree": "filetree/d564f78c6346e534b6e45eeb12349b507e088cc7.nq.gz",
+      "blobs": [
+        "blob/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz",
+        "blob/6c296bec80dfb6f0be6892cf443ec35f868707ab.nq.gz",
+        "blob/1e091a46c9bfeffcc926cb52b83357e3f6664719.nq.gz",
+        "blob/11fca39fc6c825b7425cf54b77a20c3a93bac2a9.nq.gz",
+        "blob/3ef3728bb0a2495220b180a4209e3fa668f3214e.nq.gz",
+        "blob/37acedd78bc630d94fda2b13347e51c033a39e6f.nq.gz",
+        "blob/87d73e7f9191e1eae2211fa1ba9ca43f6437e00e.nq.gz",
+        "blob/1cb29f17f19f5b8ea015a0ce9b0c65f922604b52.nq.gz",
+        "blob/a9d37c560c6ab8d4afbf47eda643e8c42e857716.nq.gz",
+        "blob/e04e8fa51a588b883bd549ad8f4ec37355a5503c.nq.gz",
+        "blob/4dbc0674f85beab4978bbe09f9922f53cc98ad9d.nq.gz",
+        "blob/3e0efc99e8761b0c00dbde2d69c39d20debc3552.nq.gz",
+        "blob/4428146b9851b9eefedc49ecde3838d4ce82f224.nq.gz",
+        "blob/6d2ea7bd73bc38155daa9f82cd1614aa39846595.nq.gz",
+        "blob/a21a72399ce5df86289ebdf4d007373f6e498df5.nq.gz"
+      ]
+    }
+  ],
+  "commit": "commit/commit.nq.gz",
+  "branch": "branch/branch.nq.gz",
+  "tag": "tag/tag.nq.gz",
+  "issue": "issue/issue.nq.gz",
+  "pr": "pr/pr.nq.gz"
+}

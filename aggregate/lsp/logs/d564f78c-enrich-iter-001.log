@@ -1,0 +1,14 @@
+[2026-09-17T11:09:32Z] === ENRICH ITERATION 1 START | repo=carllerche/iovec sha=d564f78c ===
+[2026-09-17T11:09:32Z] [iter=1] PHASE START: enrich repo=carllerche/iovec sha=d564f78c runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/d564f78c-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/d564f78c6346e534b6e45eeb12349b507e088cc7.nq.gz
+[2026-09-17T11:09:32Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-09-17T11:09:32Z] [iter=1] AST store loaded triples=12376 load_secs=0 mem_mb=103 MB
+[2026-09-17T11:09:32Z] [iter=1] Step 2: Finding LSP targets mem_mb=103 MB
+[2026-09-17T11:09:32Z] [iter=1] LSP targets found call_sites=64 imports=0 extends=0 implements=0 secs=0
+[2026-09-17T11:09:32Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=103 MB
+[2026-09-17T11:09:32Z] [iter=1] Position index built positions=819 nodes_with_types=921 secs=0 mem_mb=103 MB
+[2026-09-17T11:09:32Z] [iter=1] Step 3: Starting LSP resolution mem_mb=103 MB already_completed_types=[] already_completed_files=0
+[2026-09-17T11:09:32Z] [iter=1] Resolving target type target_type=call_site count=64
+[2026-09-17T11:09:45Z] [iter=1] Target type resolved target_type=call_site resolved=30 errors=6 secs=13 mem_mb=103 MB
+[2026-09-17T11:09:53Z] [iter=1] Step 5: Writing final enrichment file triples=703
+[2026-09-17T11:09:53Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/d564f78c6346e534b6e45eeb12349b507e088cc7.nq.gz size_kb=8
+[2026-09-17T11:09:53Z] [iter=1] PHASE END: enrich elapsed_s=21 elapsed_min=0.3 total_triples=703
